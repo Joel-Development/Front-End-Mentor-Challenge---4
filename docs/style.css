@@ -18,7 +18,6 @@ body
   position: relative;
 
   margin: 0;
-  padding: 0;
   padding-bottom: 50px;
   min-height: 100vh;
 
@@ -53,15 +52,25 @@ img
   max-width: 100%;
 }
 
-.header
+.title-1
+{
+  display: none;
+  
+  font-size: 30px;
+  text-align: center;
+  margin: 0 0 20px 0;
+
+  grid-column: 1/3;
+}
+
+.menu
 {
   display: flex;
   justify-content: start;
   align-items: center;
-
+  height: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  height: 100px;
 }
 
 .header .menu a img
@@ -156,14 +165,17 @@ img
   font-size: 15px;
   text-decoration: none;
   line-height: 40px;
+
+  transition: background-color .1s ease-in;
+
 }
 
-.button:active
+.button:active,
+.button:hover
 {
   background-color: var(--soft-magenta);
   color: white;
   box-shadow: 0 10px 10px var(--violet);
-  transition: background-color .1s ease-in;
   transition: color .1s ease-in;
 }
 
@@ -182,7 +194,7 @@ img
   font-size: 18px;
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 860px){
   .text :not(a)
   {
     text-align: left;
@@ -198,17 +210,9 @@ img
     line-height: 35px;
   }
 
-  .main
-  {
-    min-height: calc(100vh - 100px);
-  }
   .social
   {
-    position: absolute;
-    bottom: 0;
-    right: 0;
     justify-content: flex-end;
-    margin-top: auto;
   }
 }
 .social__icon
@@ -234,12 +238,17 @@ img
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: max-content;
-  height: 50px;
+
   font-size: 15px;
   text-align: center;
 }
 .attribution a {
   color: var(--soft-magenta);
   text-decoration: none;
+}
+
+.attribution a:hover,
+.attribution a:active
+{
+  text-decoration: underline;
 }
