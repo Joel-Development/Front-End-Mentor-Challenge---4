@@ -17,8 +17,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Joel-Development/FrontEndMentor---Challenge-4)
-- Live: [Github Pages](https://joel-development.github.io/frontendmentor---challenge-4)
+- Solution URL: [Github](https://github.com/sanchezdev-1906/frontendmentor---challenge-4)
+- Live: [Github Pages](https://sanchezdev-1906.github.io/frontendmentor---challenge-4)
 
 ## Built with
 
