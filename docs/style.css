@@ -2,8 +2,8 @@
 
 :root
 {
-  --violet: hsl(257, 40%, 49%);
-  --soft-magenta: hsl(300, 69%, 71%);
+  --violet: #674baf;
+  --soft-magenta: #e882e8;
   --main-font: 'Open Sans', sans-serif;
   --secondary-font: 'Poppins', sans-serif;
 }
